@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`When load the automation pages Should render the AutomationApp 1`] = `
+<BrowserRouter>
+  <Container
+    displayName="Container"
+    fluid={true}
+  >
+    <Row>
+      <Col
+        className="sample-col app-row-col app-col-navbar"
+        xs={2}
+      >
+        <Navbar />
+      </Col>
+      <Col
+        className="sample-col app-row-col"
+        xs={10}
+      >
+        <AppRouter />
+      </Col>
+    </Row>
+  </Container>
+</BrowserRouter>
+`;

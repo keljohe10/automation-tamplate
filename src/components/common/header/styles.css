@@ -1,0 +1,13 @@
+.app-page-header-icon{
+    background-color: #0c3d6e!important;
+    height: 50px;
+}
+
+.app-page-header-nav{
+    height: 40px;
+}
+
+.app-header-nav{
+    display: flex;
+  justify-content: space-between;
+}

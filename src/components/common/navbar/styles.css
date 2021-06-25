@@ -1,0 +1,41 @@
+.app-navbar-img{
+    text-align: center;
+    padding-top: 11px;
+    border-bottom: 1px solid #7982936e;
+    height: 50px;
+}
+
+.app-navbar-title{
+    color: #798293;
+    position: relative;
+    top: 2px;
+}
+
+.app-navbar-icon{
+    color: #798293;
+    position: relative;
+    top: 5px;
+}
+
+.app-navbar-option{
+    color: #798293;
+    text-decoration: none!important;
+
+}
+
+.app-vertical-menu span {
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #7982936e;
+}
+
+.app-active,  .app-active > i{
+    color: #19c27f!important;
+}
+
+.app-navbar-subtitle{
+    padding-left: 15px;
+}
