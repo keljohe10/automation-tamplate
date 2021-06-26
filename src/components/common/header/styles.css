@@ -11,3 +11,6 @@
     display: flex;
   justify-content: space-between;
 }
+.app-header-button{
+    margin: auto 0;
+}

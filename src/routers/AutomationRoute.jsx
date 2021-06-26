@@ -5,9 +5,10 @@ import Header from "../components/common/header/Header";
 
 
 const AutomationRoute = ({ component: Component, ...rest }) => {
+  
   return (
     <>
-      <Header {...rest} />
+      <Header {...rest}/>
       <Route
         {...rest}
         component={(props) =>
