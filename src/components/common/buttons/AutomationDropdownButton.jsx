@@ -7,7 +7,7 @@ import getHeaderLabel from "../../../utils/index";
 
 const AutomationDropdownButton = ({ title, options, history }) => {
     const redirectReportPage = (key) => {
-        history.push(key);
+        history.replace(key);
     }
     return (
         <>

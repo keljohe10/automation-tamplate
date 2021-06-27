@@ -6,4 +6,113 @@
 .app-col-navbar{
     background-color: #061836;
 }
+.app-loading{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 
+}
+.app-icon-access-denied {
+    font-size: 13px !important;
+    margin: 0 0 10px !important;
+  }
+  
+  .app-general-styles {
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px !important;
+    color: #717171 !important;
+    background-color: transparent;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .app-container-access {
+    height: 100vh;
+  }
+  .app-access-denied {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .h {
+    font-size: 170px;
+    font-weight: 300;
+    text-shadow: 0 1px 0 #d9d9d9, 0 2px 0 #d0d0d0, 0 5px 10px rgba(0, 0, 0, 0.125),
+      0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .text-white {
+    color: #fff !important;
+  }
+  
+  .panel.panel-default {
+    border-color: #e8e8e8;
+  }
+  .m-t-xl {
+    margin-top: 40px;
+  }
+  .panel {
+    border-radius: 2px;
+  }
+  .panel-default {
+    border-color: #ddd;
+  }
+  .panel {
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  }
+  
+  .panel-body {
+    padding: 15px;
+  }
+  
+  .no-margin-bottom {
+    margin-bottom: 0 !important;
+  }
+  
+  .link {
+    text-decoration: underline !important;
+  }
+  .m-t-xl {
+    margin-top: 40px;
+  }
+  .row {
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+  }
+  
+  .copyright {
+    margin-top: 50px;
+  }
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-muted {
+    color: #979797;
+  }
+  .app-container-icons {
+    width: 50% !important;
+  }
+  
+  .app-label-icons-access-denied {
+    font-size: 13px;
+  }
+  .app-shadow-button::before {
+    bottom: -18px !important;
+  }
+  
