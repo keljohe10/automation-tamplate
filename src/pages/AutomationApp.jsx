@@ -27,7 +27,12 @@ const AutomationApp = () => {
                 setAuth({ isHelpdeskRole: authorized.isHelpdeskRole, isAutorizedToViewPage: authorized.isAutorizedToViewPage });
                 setLoading(false);
             } catch (error) {
+                if(error.response.status == 401) {
+                    setAuth({ isHelpdeskRole: false, isAutorizedToViewPage: false });
+                    setLoading(false);
+                } 
                 console.error(error);
+                
             }
         };
         fetchData();
