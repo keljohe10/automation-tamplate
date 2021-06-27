@@ -27,12 +27,12 @@ const AutomationApp = () => {
                 setAuth({ isHelpdeskRole: authorized.isHelpdeskRole, isAutorizedToViewPage: authorized.isAutorizedToViewPage });
                 setLoading(false);
             } catch (error) {
-                if(error.response.status == 401) {
+                if (error && error.response && error.response.status === 401) {
                     setAuth({ isHelpdeskRole: false, isAutorizedToViewPage: false });
                     setLoading(false);
-                } 
+                }
                 console.error(error);
-                
+
             }
         };
         fetchData();
@@ -59,19 +59,20 @@ const AutomationApp = () => {
                 </>
             )
         } else {
-            return (
-                <NotFound />
-            )
-
+            return <NotFound />
         }
     }
 
-    if (loading) {
+    const spinnerLoding = () => {
         return (
             <div className="app-loading">
                 <Spinner size="md" color="info" />
             </div>
         );
+    }
+
+    if (loading) {
+        return spinnerLoding();
     } else {
         return renderPage(auth.isHelpdeskRole);
     }
