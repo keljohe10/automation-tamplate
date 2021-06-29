@@ -153,7 +153,6 @@ const CourseApprovedReport = () => {
 
             }
             const { data } = await scheduleTask(scheduleData);
-            console.log(data.uuid)
             setButtonStatus(false);
             swal(
                 'Successful!',
