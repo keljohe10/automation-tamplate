@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import PageHeader from 'emerald-ui/lib/PageHeader';
 import routePath from "../../../routers/routePath";
-import getHeaderLabel from "../../../utils/index";
+import { getHeaderLabel } from "../../../utils/index";
 import AutomationButton from "../buttons/AutomationButton";
 
 import { AuthContext } from '../../../auth/AuthContext';
