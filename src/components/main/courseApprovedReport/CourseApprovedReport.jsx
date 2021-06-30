@@ -159,8 +159,6 @@ const CourseApprovedReport = () => {
                 `TrackingId: ${data.uuid}`,
                 'success'
             );
-
-
         } catch (error) {
             setButtonStatus(false);
             swal('Error!', 'An unexpected error has occurred trying to schedule the report.', 'error');

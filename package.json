@@ -19,6 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "build:staging": "sh ./bash-scripts/set-env-variables.sh staging && REACT_APP_ENV=staging npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
